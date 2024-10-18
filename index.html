@@ -4,9 +4,186 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>arckiaves</title>
-    <link rel="stylesheet" href=""
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
-<body>
-    
+<p>
+
+<header>
+    <h1>arckiaves</h1>
+</header>
+<div class="image-container">
+    <div class="box" onclick="openModal(this)">
+        <img src="./assets/img/back.jpg" alt="Image 1">
+    </div>
+    <div class="box" onclick="openModal(this)">
+        <img src="./assets/img/seulgi_cosmic.jpg" alt="Image 2">
+    </div>
+    <div class="box" onclick="openModal(this)">
+        <img src="./assets/img/pomegranate.jpg" alt="Image 3">
+    </div>
+</div>
+
+<h2> Art, Graphic Design, Photography</h2>
+<p class="text-below">Hey! </p>My name is Kia, also known as arckiaves on my socials. I am majoring in Bachelor of Multimedia arts, currently as a sophomore year at FEU Institute of Technology situated in Sampaloc, Manila, where I create art in various forms. I mainly dwell in digital art where I use my realistic or semi-realistic art style to create artworks. While here, feel free to explore my archive of artworks.</p>
+<img src="./assets/img/kia.jpg" class="image" alt="My picture">
+
+<div class="separator">
+    <p>-ˋˏ ༻❁ Top 3 Works ❀༺ ˎˊ-</p>
+</div>
+
+<div class="image-container">
+    <div class="box" onclick="openModal(this)">
+        <img src="./assets/img/dagger.jpg" alt="Image 4">
+    </div>
+    <div class="box" onclick="openModal(this)">
+        <img src="./assets/img/hanahaki.jpg" alt="Image 5">
+    </div>
+    <div class="box" onclick="openModal(this)">
+        <img src="./assets/img/masked.jpeg" alt="Image 6">
+    </div>
+</div>
+
+<div class="text-box">
+    <p>My art style and theme mainly revolves around nature and humanistic elements. As seen above, I consider these my top works as they portray my art style well. The pictures on the left and right are traditional paintings, while the one in the center is digital.</p>
+</div>
+
+<div class="separator">
+    <p>-ˋˏ ༻❁ More Works ❀༺ ˎˊ-</p>
+</div>
+
+<div class="button-container">
+    <button onclick="toggleSection('photography')">Photography Archives</button>
+    <button onclick="toggleSection('drawings')">Art Archives</button>
+</div>
+
+<div id="photography" class="image-container" style="display: none;">
+    <div class="separator">
+        <p>-ˋˏ ༻❁ Photography Works ❀༺ ˎˊ-</p>
+    </div>
+    <div class="fade-in">
+        <div class="box" onclick="openModal(this)">
+            <img src="./assets/img/highway.JPG" alt="Photography 1">
+        </div>
+        <div class="box" onclick="openModal(this)">
+            <img src="./assets/img/flat.JPG" alt="Photography 2">
+        </div>
+        <div class="box" onclick="openModal(this)">
+            <img src="./assets/img/boat.JPG" alt="Photography 3">
+        </div>
+        <div class="box" onclick="openModal(this)">
+            <img src="./assets/img/arch.JPG" alt="Photography 4">
+        </div>
+        <div class="box" onclick="openModal(this)">
+            <img src="./assets/img/car.jpg" alt="Photography 5">
+        </div>
+        <div class="box" onclick="openModal(this)">
+            <img src="./assets/img/window.jpg" alt="Photography 6">
+        </div>
+    </div>
+</div>
+
+<div id="drawings" class="image-container" style="display: none;">
+    <div class="separator">
+        <p>-ˋˏ ༻❁ Drawing Works ❀༺ ˎˊ-</p>
+    </div>
+    <div class="fade-in">
+        <div class="box" onclick="openModal(this)">
+            <img src="./assets/img/redstring.jpg" alt="Drawing 1">
+        </div>
+        <div class="box" onclick="openModal(this)">
+            <img src="./assets/img/prideandprejudice.jpeg" alt="Drawing 2">
+        </div>
+        <div class="box" onclick="openModal(this)">
+            <img src="./assets/img/cyber.jpg" alt="Drawing 3">
+        </div>
+    </div>
+</div>
+
+<div class="separator">
+    <p>-ˋˏ ༻❁ Current Works ❀༺ ˎˊ-</p>
+</div>
+
+<div class="image-container">
+    <div class="box" onclick="openModal(this)">
+        <img src="./assets/img/campus.jpg" alt="Current Work 1">
+    </div>
+    <div class="box" onclick="openModal(this)">
+        <img src="./assets/img/3D.jpg" alt="Current Work 2">
+    </div>
+    <div class="box" onclick="openModal(this)">
+        <img src="./assets/img/sketch.jpg" alt="Current Work 3">
+    </div>
+</div>
+
+<div class="text-box">
+    <p>Since I am currently a sophomore, I'm focusing on classes and projects such as 3D modeling, animation, film and any more, but hopefully soon I will be able to start taking commissions and new projects!</p>
+</div>
+
+<div class="contact-box">
+    <h2>🌼 Contact Me 🌼</h2>
+    <p>I'd love to hear from you! Feel free to send me a message.</p>
+    <div class="contact-links">
+        <button onclick="window.location.href='mailto:dinizkia7@gmail.com'">Email</button>
+        <button onclick="window.open('https://www.instagram.com/arckiaves/')">Instagram</button>
+        <button onclick="window.open('https:////arckiaves.carrd.co/')">Carrd</button>
+        <button onclick="window.open('https://www.facebook.com/profile.php?id=100093668534944')">Facebook</button>
+        <button onclick="window.open('https://www.behance.net/kiadiniz')">Behance</button>
+    </div>
+</div>
+
+<div id="my Modal" class="modal">
+    <span onclick="closeModal()" style="color: #ffefb2; font-size: 2em; cursor: pointer; position: absolute; top: 20px; right: 30px;">&times;</span>
+    <div class="modal-content">
+        <img id="modalImg" src="" alt="">
+    </div>
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    const separators = document.querySelectorAll('.separator');
+    separators.forEach(separator => separator.classList.add('show'));
+
+    const fadeInImages = document.querySelectorAll('.fade-in');
+    fadeInImages.forEach(container => {
+        container.classList.add('show');
+    });
+
+    const textBelow = document.querySelector('.text-below');
+    textBelow.classList.add('show');
+
+    const textBox = document.querySelectorAll('.text-box');
+    textBox.forEach(box => {
+        setTimeout(() => {
+            box.classList.add('show');
+        }, 500);
+    });
+});
+
+function toggleSection(section) {
+    const sectionDiv = document.getElementById(section);
+    const isVisible = sectionDiv.style.display === "block";
+
+    sectionDiv.style.display = isVisible ? "none" : "block";
+
+    if (!isVisible) {
+        sectionDiv.style.opacity = '0';
+        sectionDiv.style.transition = 'opacity 0.5s';
+        setTimeout(() => {
+            sectionDiv.style.opacity = '1';
+        }, 10);
+    }
+}
+
+function openModal(element) {
+    const img = element.querySelector('img').src;
+    const modalImg = document.getElementById("modalImg");
+    modalImg.src = img;
+    document.getElementById("myModal").style.display = "flex";
+}
+
+function closeModal() {
+    document.getElementById("myModal").style.display = "none";
+}
+</script>
 </body>
 </html>
