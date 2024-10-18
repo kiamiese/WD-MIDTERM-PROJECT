@@ -162,6 +162,14 @@ button:hover {
 
 .fade-in.show {
     opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    margin: 40px;
+    padding: 20px;
+    align-items: center;
 }
 
 .contact-box {
