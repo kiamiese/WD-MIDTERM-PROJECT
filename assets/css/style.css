@@ -60,7 +60,7 @@ h1 {
 }
 
 .box:hover {
-    transform: scale(1.05) translateY(-10px);
+    transform: scale(1.05);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
 }
 
@@ -79,7 +79,7 @@ h1 {
 }
 
 h2 {
-    margin: 20px 0;
+    margin: 20px;
     font-size: 1.8em;
     color: #1f4e21;
     text-align: center;
@@ -162,11 +162,6 @@ button:hover {
 
 .fade-in.show {
     opacity: 1;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
-    align-items: center;
-    justify-content: space-between;
 }
 
 .contact-box {
@@ -198,7 +193,6 @@ button:hover {
     margin-top: 20px;
     text-align: center;
 }
-
 .contact-links a {
     display: inline-block;
     margin: 5px;
@@ -209,11 +203,9 @@ button:hover {
     border-radius: 5px;
     transition: background-color 0.3s;
 }
-
 .contact-links a:hover {
     background-color: #3b6e3b;
 }
-
 .modal {
     display: none;
     position: fixed;
@@ -227,7 +219,6 @@ button:hover {
     justify-content: center;
     align-items: center;
 }
-
 .modal-content {
     margin: auto;
     max-width: 80%;
