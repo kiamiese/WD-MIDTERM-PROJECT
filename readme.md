@@ -53,22 +53,22 @@
 
 ## Overview
 
-<!-- TODO: To be changed -->
+<!-- TODO: To be changed --> 
 <!-- The following are just sample -->
-Description of the project in details.
+I created a single page website displaying some of artworks and explaining my style in detail. I firstly introduced myself as an artist and highlighted my main works. Telling how I go about my works and passions. Sections were used to create seperation of contents and give it a clean and organized look, along side using buttons.
 
 Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
+- What is the project - single page website to display my works.
+- Whats the purpose - to create a single page website.
+- What are key components - introduction of myself and display of artworks.
+- What technology used and how it is used - visual studio code was used to create this site. 
 
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+- Single Page Website
+- Functioning buttons to display works
+- Interacting pictures of works
 
 ### Technology
 <!-- TODO: List of Technology Used -->
